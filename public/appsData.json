@@ -1,0 +1,398 @@
+[
+  {
+    "id": "app001",
+    "name": "Btdeng",
+    "developer": "Btdeng Hero Ltd.",
+    "thumbnail": "https://i.ibb.co.com/yB7wXwq6/education1.jpg",
+    "banner": "https://i.ibb.co.com/yB7wXwq6/education1.jpg",
+    "downloads": 3500000,
+    "category": "Education",
+    "rating": 4.8,
+    "description": "Programming Hero is a fun and interactive way to learn programming. Whether you're a beginner or looking to brush up your skills, this app makes learning to code exciting and practical.",
+    "features": [
+      "Interactive coding lessons",
+      "Real-world projects",
+      "Gamified learning experience"
+    ],
+    "reviews": [
+      {
+        "user": "coder_nadia",
+        "rating": 5,
+        "comment": "Best app for beginners!"
+      }
+    ]
+  },
+  {
+    "id": "app007",
+    "name": "Math Master",
+    "developer": "EduTech",
+    "thumbnail": "https://i.ibb.co.com/Z6Scb5qB/education2.jpg",
+    "banner": "https://i.ibb.co.com/Z6Scb5qB/education2.jpg",
+    "downloads": 2200000,
+    "category": "Education",
+    "rating": 4.6,
+    "description": "Practice math problems in a fun and interactive way.",
+    "features": [
+      "Daily math quizzes",
+      "Step-by-step solutions",
+      "Leaderboard challenges"
+    ],
+    "reviews": [
+      {
+        "user": "math_genius",
+        "rating": 5,
+        "comment": "This helped me improve my math skills a lot."
+      }
+    ]
+  },
+  {
+    "id": "app008",
+    "name": "Language Buddy",
+    "developer": "Lingo Corp",
+    "thumbnail": "https://i.ibb.co.com/cML9qZ6/education3.jpg",
+    "banner": "https://i.ibb.co.com/cML9qZ6/education3.jpg",
+    "downloads": 2700000,
+    "category": "Education",
+    "rating": 4.7,
+    "description": "Learn new languages with interactive lessons and real conversations.",
+    "features": ["AI chat practice", "Grammar tips", "Daily vocabulary"],
+    "reviews": [
+      {
+        "user": "polyglot_mina",
+        "rating": 5,
+        "comment": "Best app for learning languages on the go!"
+      }
+    ]
+  },
+  {
+    "id": "app009",
+    "name": "Science Explorer",
+    "developer": "Discovery Labs",
+    "thumbnail": "https://i.ibb.co.com/DHxqGqt5/education4.jpg",
+    "banner": "https://i.ibb.co.com/DHxqGqt5/education4.jpg",
+    "downloads": 1800000,
+    "category": "Education",
+    "rating": 4.5,
+    "description": "Explore science experiments and concepts in an engaging way.",
+    "features": ["Virtual labs", "Animations", "Quiz mode"],
+    "reviews": [
+      {
+        "user": "curious_sam",
+        "rating": 4,
+        "comment": "Fun for kids and adults alike."
+      }
+    ]
+  },
+  {
+    "id": "app010",
+    "name": "History Time",
+    "developer": "EduWorld",
+    "thumbnail": "https://i.ibb.co.com/nsZRw4gr/education5.jpg",
+    "banner": "https://i.ibb.co.com/nsZRw4gr/education5.jpg",
+    "downloads": 1500000,
+    "category": "Education",
+    "rating": 4.4,
+    "description": "Travel through history with interactive timelines and stories.",
+    "features": ["Historical maps", "Daily facts", "Interactive quizzes"],
+    "reviews": [
+      {
+        "user": "history_buff",
+        "rating": 5,
+        "comment": "I learned so much history in a fun way."
+      }
+    ]
+  },
+  {
+    "id": "app002",
+    "name": "Galaxy Warriors",
+    "developer": "Stellar Games",
+    "thumbnail": "https://i.ibb.co.com/bgfvjdR6/game1.jpg",
+    "banner": "https://i.ibb.co.com/bgfvjdR6/game1.jpg",
+    "downloads": 5000000,
+    "category": "Games",
+    "rating": 4.6,
+    "description": "Join epic intergalactic battles and lead your squad to victory in this space shooter game.",
+    "features": [
+      "Multiplayer battles",
+      "Epic boss fights",
+      "Upgradeable spaceships"
+    ],
+    "reviews": [
+      {
+        "user": "space_king",
+        "rating": 5,
+        "comment": "Best space game I\u2019ve ever played!"
+      }
+    ]
+  },
+  {
+    "id": "app003",
+    "name": "Puzzle Quest",
+    "developer": "Brainy Studios",
+    "thumbnail": "https://i.ibb.co.com/HTh9Q3wC/game2.jpg",
+    "banner": "https://i.ibb.co.com/HTh9Q3wC/game2.jpg",
+    "downloads": 1200000,
+    "category": "Games",
+    "rating": 4.5,
+    "description": "Solve challenging puzzles and unlock hidden treasures in this addictive brain game.",
+    "features": ["Hundreds of puzzles", "Daily challenges", "Offline mode"],
+    "reviews": [
+      {
+        "user": "puzzle_master",
+        "rating": 4,
+        "comment": "Fun and challenging but could use more levels."
+      }
+    ]
+  },
+  {
+    "id": "app004",
+    "name": "Speed Racer X",
+    "developer": "Nitro Games",
+    "thumbnail": "https://i.ibb.co.com/35WqZGQL/game3.jpg",
+    "banner": "https://i.ibb.co.com/35WqZGQL/game3.jpg",
+    "downloads": 4200000,
+    "category": "Games",
+    "rating": 4.7,
+    "description": "Race against players worldwide in high-speed futuristic cars.",
+    "features": ["Online multiplayer", "Custom cars", "Dynamic weather tracks"],
+    "reviews": [
+      {
+        "user": "racer_john",
+        "rating": 5,
+        "comment": "Best racing game ever, graphics are insane!"
+      }
+    ]
+  },
+  {
+    "id": "app005",
+    "name": "Zombie Survival",
+    "developer": "Dark Night Studios",
+    "thumbnail": "https://i.ibb.co.com/PvDbzVvb/game4.jpg",
+    "banner": "https://i.ibb.co.com/PvDbzVvb/game4.jpg",
+    "downloads": 2500000,
+    "category": "Games",
+    "rating": 4.3,
+    "description": "Survive the apocalypse by fighting off hordes of zombies with weapons and strategies.",
+    "features": ["Survival mode", "Multiplayer co-op", "Weapon crafting"],
+    "reviews": [
+      {
+        "user": "survivor_ali",
+        "rating": 5,
+        "comment": "Scary and exciting. Perfect for zombie fans!"
+      }
+    ]
+  },
+  {
+    "id": "app006",
+    "name": "Fantasy Kingdom",
+    "developer": "Dream Games",
+    "thumbnail": "https://i.ibb.co.com/G40SG98g/game5.jpg",
+    "banner": "https://i.ibb.co.com/G40SG98g/game5.jpg",
+    "downloads": 3100000,
+    "category": "Games",
+    "rating": 4.4,
+    "description": "Build your own magical kingdom and defend it against enemies.",
+    "features": ["Kingdom building", "Epic quests", "PvP battles"],
+    "reviews": [
+      {
+        "user": "magic_lord",
+        "rating": 4,
+        "comment": "Love the graphics, needs more updates."
+      }
+    ]
+  },
+  {
+    "id": "app012",
+    "name": "CineWorld",
+    "developer": "MovieMax",
+    "thumbnail": "https://i.ibb.co.com/fddshJFz/entertainment1.jpg",
+    "banner": "https://i.ibb.co.com/fddshJFz/entertainment1.jpg",
+    "downloads": 4500000,
+    "category": "Entertainment",
+    "rating": 4.7,
+    "description": "Watch trailers, reviews, and discover trending movies worldwide.",
+    "features": ["Latest trailers", "Movie ratings", "Watchlist feature"],
+    "reviews": [
+      {
+        "user": "movie_fan",
+        "rating": 5,
+        "comment": "I always know what to watch next thanks to this app!"
+      }
+    ]
+  },
+  {
+    "id": "app013",
+    "name": "Music Beat",
+    "developer": "SoundWave Ltd.",
+    "thumbnail": "https://i.ibb.co.com/G4wgMtd9/entertainment2.jpg",
+    "banner": "https://i.ibb.co.com/G4wgMtd9/entertainment2.jpg",
+    "downloads": 6000000,
+    "category": "Entertainment",
+    "rating": 4.9,
+    "description": "Stream and enjoy millions of songs with curated playlists.",
+    "features": [
+      "High-quality audio",
+      "Offline downloads",
+      "Personalized playlists"
+    ],
+    "reviews": [
+      {
+        "user": "dj_sara",
+        "rating": 5,
+        "comment": "The sound quality is amazing and playlists are fire!"
+      }
+    ]
+  },
+  {
+    "id": "app014",
+    "name": "FunTV",
+    "developer": "StreamNet",
+    "thumbnail": "https://i.ibb.co.com/1Ykd3QRs/entertainment3.jpg",
+    "banner": "https://i.ibb.co.com/1Ykd3QRs/entertainment3.jpg",
+    "downloads": 3700000,
+    "category": "Entertainment",
+    "rating": 4.6,
+    "description": "Stream comedy shows, TV dramas, and web series anytime.",
+    "features": ["HD streaming", "Offline save", "Multi-device support"],
+    "reviews": [
+      {
+        "user": "comedy_lover",
+        "rating": 4,
+        "comment": "Lots of content but needs better subtitles."
+      }
+    ]
+  },
+  {
+    "id": "app015",
+    "name": "Game Streams",
+    "developer": "LivePlay",
+    "thumbnail": "https://i.ibb.co.com/0jdm5YMF/entertainment4.jpg",
+    "banner": "https://i.ibb.co.com/0jdm5YMF/entertainment4.jpg",
+    "downloads": 2800000,
+    "category": "Entertainment",
+    "rating": 4.5,
+    "description": "Watch live game streams and interact with gamers worldwide.",
+    "features": ["Live chat", "Game highlights", "Follow favorite gamers"],
+    "reviews": [
+      {
+        "user": "gamer_girl",
+        "rating": 5,
+        "comment": "I love watching my fav gamers live!"
+      }
+    ]
+  },
+  {
+    "id": "app016",
+    "name": "Comedy Central",
+    "developer": "Laugh Corp",
+    "thumbnail": "https://i.ibb.co.com/v63PKdJD/entertainmnet5.jpg",
+    "banner": "https://i.ibb.co.com/v63PKdJD/entertainmnet5.jpg",
+    "downloads": 2300000,
+    "category": "Entertainment",
+    "rating": 4.3,
+    "description": "Enjoy stand-up comedy clips and laugh all day.",
+    "features": ["Daily comedy shows", "Offline save", "Share clips"],
+    "reviews": [
+      {
+        "user": "funny_guy",
+        "rating": 4,
+        "comment": "Always makes my day better."
+      }
+    ]
+  },
+  {
+    "id": "app017",
+    "name": "Task Manager Pro",
+    "developer": "WorkHub",
+    "thumbnail": "https://i.ibb.co.com/vxHr5dy9/productivity1.jpg",
+    "banner": "https://i.ibb.co.com/vxHr5dy9/productivity1.jpg",
+    "downloads": 3200000,
+    "category": "Productivity",
+    "rating": 4.7,
+    "description": "Organize tasks and boost productivity with this smart task manager.",
+    "features": ["Task reminders", "Team collaboration", "Progress tracking"],
+    "reviews": [
+      {
+        "user": "busy_bee",
+        "rating": 5,
+        "comment": "This app changed how I organize my work!"
+      }
+    ]
+  },
+  {
+    "id": "app018",
+    "name": "Focus Timer",
+    "developer": "Zen Apps",
+    "thumbnail": "https://i.ibb.co.com/C5sS5WZH/productivity2.jpg",
+    "banner": "https://i.ibb.co.com/C5sS5WZH/productivity2.jpg",
+    "downloads": 1400000,
+    "category": "Productivity",
+    "rating": 4.5,
+    "description": "Use Pomodoro techniques to stay focused and productive.",
+    "features": ["Pomodoro timer", "Focus stats", "Custom intervals"],
+    "reviews": [
+      {
+        "user": "study_hard",
+        "rating": 5,
+        "comment": "Helped me focus during my exams!"
+      }
+    ]
+  },
+  {
+    "id": "app019",
+    "name": "Note Keeper",
+    "developer": "OrganizeIt",
+    "thumbnail": "https://i.ibb.co.com/ynPXQ9zC/productivity3.jpg",
+    "banner": "https://i.ibb.co.com/ynPXQ9zC/productivity3.jpg",
+    "downloads": 2700000,
+    "category": "Productivity",
+    "rating": 4.6,
+    "description": "Take notes, set reminders, and keep your life organized.",
+    "features": ["Voice notes", "Cloud sync", "Dark mode"],
+    "reviews": [
+      {
+        "user": "note_taker",
+        "rating": 5,
+        "comment": "Simple and effective. Exactly what I needed."
+      }
+    ]
+  },
+  {
+    "id": "app020",
+    "name": "Budget Tracker",
+    "developer": "FinWise",
+    "thumbnail": "https://i.ibb.co.com/2YLDydr2/productivity4.jpg",
+    "banner": "https://i.ibb.co.com/2YLDydr2/productivity4.jpg",
+    "downloads": 1900000,
+    "category": "Productivity",
+    "rating": 4.4,
+    "description": "Track your income and expenses to save more money.",
+    "features": ["Expense reports", "Budget planning", "Data export"],
+    "reviews": [
+      {
+        "user": "saver_rahim",
+        "rating": 4,
+        "comment": "Very useful, but could use more currency options."
+      }
+    ]
+  },
+  {
+    "id": "app021",
+    "name": "Calendar Sync",
+    "developer": "TimeWise",
+    "thumbnail": "https://i.ibb.co.com/NnJ5PpYm/productivity5.jpg",
+    "banner": "https://i.ibb.co.com/NnJ5PpYm/productivity5.jpg",
+    "downloads": 2100000,
+    "category": "Productivity",
+    "rating": 4.5,
+    "description": "Sync all your calendars in one place and never miss an event.",
+    "features": ["Multi-calendar support", "Reminders", "Color-coded events"],
+    "reviews": [
+      {
+        "user": "planner_mina",
+        "rating": 5,
+        "comment": "Finally, one calendar for all my schedules!"
+      }
+    ]
+  }
+]

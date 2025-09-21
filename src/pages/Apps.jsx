@@ -1,11 +1,11 @@
 import React from "react";
 
-const Navbar = () => {
+const Apps = () => {
   return (
     <div>
-      <h1>Navbar</h1>
+      <h1>Apps page</h1>
     </div>
   );
 };
 
-export default Navbar;
+export default Apps;
