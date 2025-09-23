@@ -83,25 +83,7 @@
       }
     ]
   },
-  {
-    "id": "app010",
-    "name": "History Time",
-    "developer": "EduWorld",
-    "thumbnail": "https://i.ibb.co.com/nsZRw4gr/education5.jpg",
-    "banner": "https://i.ibb.co.com/nsZRw4gr/education5.jpg",
-    "downloads": 1500000,
-    "category": "Education",
-    "rating": 4.4,
-    "description": "Travel through history with interactive timelines and stories.",
-    "features": ["Historical maps", "Daily facts", "Interactive quizzes"],
-    "reviews": [
-      {
-        "user": "history_buff",
-        "rating": 5,
-        "comment": "I learned so much history in a fun way."
-      }
-    ]
-  },
+
   {
     "id": "app002",
     "name": "Galaxy Warriors",
@@ -121,7 +103,7 @@
       {
         "user": "space_king",
         "rating": 5,
-        "comment": "Best space game I\u2019ve ever played!"
+        "comment": "Best space game I’ve ever played!"
       }
     ]
   },
@@ -182,25 +164,7 @@
       }
     ]
   },
-  {
-    "id": "app006",
-    "name": "Fantasy Kingdom",
-    "developer": "Dream Games",
-    "thumbnail": "https://i.ibb.co.com/G40SG98g/game5.jpg",
-    "banner": "https://i.ibb.co.com/G40SG98g/game5.jpg",
-    "downloads": 3100000,
-    "category": "Games",
-    "rating": 4.4,
-    "description": "Build your own magical kingdom and defend it against enemies.",
-    "features": ["Kingdom building", "Epic quests", "PvP battles"],
-    "reviews": [
-      {
-        "user": "magic_lord",
-        "rating": 4,
-        "comment": "Love the graphics, needs more updates."
-      }
-    ]
-  },
+
   {
     "id": "app012",
     "name": "CineWorld",
@@ -281,25 +245,7 @@
       }
     ]
   },
-  {
-    "id": "app016",
-    "name": "Comedy Central",
-    "developer": "Laugh Corp",
-    "thumbnail": "https://i.ibb.co.com/v63PKdJD/entertainmnet5.jpg",
-    "banner": "https://i.ibb.co.com/v63PKdJD/entertainmnet5.jpg",
-    "downloads": 2300000,
-    "category": "Entertainment",
-    "rating": 4.3,
-    "description": "Enjoy stand-up comedy clips and laugh all day.",
-    "features": ["Daily comedy shows", "Offline save", "Share clips"],
-    "reviews": [
-      {
-        "user": "funny_guy",
-        "rating": 4,
-        "comment": "Always makes my day better."
-      }
-    ]
-  },
+
   {
     "id": "app017",
     "name": "Task Manager Pro",
@@ -373,25 +319,6 @@
         "user": "saver_rahim",
         "rating": 4,
         "comment": "Very useful, but could use more currency options."
-      }
-    ]
-  },
-  {
-    "id": "app021",
-    "name": "Calendar Sync",
-    "developer": "TimeWise",
-    "thumbnail": "https://i.ibb.co.com/NnJ5PpYm/productivity5.jpg",
-    "banner": "https://i.ibb.co.com/NnJ5PpYm/productivity5.jpg",
-    "downloads": 2100000,
-    "category": "Productivity",
-    "rating": 4.5,
-    "description": "Sync all your calendars in one place and never miss an event.",
-    "features": ["Multi-calendar support", "Reminders", "Color-coded events"],
-    "reviews": [
-      {
-        "user": "planner_mina",
-        "rating": 5,
-        "comment": "Finally, one calendar for all my schedules!"
       }
     ]
   }

@@ -1,9 +1,20 @@
-import React from "react";
+import Slider from "../components/Slider";
+import TrendingApps from "../components/TrendingApps";
+
+import CategoryApps from "../components/CategoryApps";
 
 const Apps = () => {
   return (
-    <div>
-      <h1>Apps page</h1>
+    <div className="p-10">
+      <div>
+        <Slider></Slider>
+      </div>
+      <div>
+        <TrendingApps></TrendingApps>
+      </div>
+      <div>
+        <CategoryApps></CategoryApps>
+      </div>
     </div>
   );
 };

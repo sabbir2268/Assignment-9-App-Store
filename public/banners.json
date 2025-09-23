@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Banner 1",
+    "thumbnail": "https://i.ibb.co.com/23kJNhb7/banner1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Banner 2",
+    "thumbnail": "https://i.ibb.co.com/LfPdzRJ/banner2.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Banner 5",
+    "thumbnail": "https://i.ibb.co.com/99KG0N5P/banner5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Banner 6",
+    "thumbnail": "https://i.ibb.co.com/VWJ4wvqz/banner6.jpg"
+  }
+]

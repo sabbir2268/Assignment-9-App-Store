@@ -5,10 +5,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/apps">Apps</Link>
+        <Link to="/">Apps</Link>
       </li>
       <li>
         <Link to="/myProfile">My Profile</Link>
@@ -49,7 +46,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center gap-2 ">
-          <img src="logo.png" alt="Logo" className="w-6 lg:w-10 shrink-0" />
+          <img src="/logo.png" alt="Logo" className="w-6 lg:w-10 shrink-0" />
           {/* Hidden on mobile */}
           <Link
             to="/"
