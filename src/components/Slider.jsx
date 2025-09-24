@@ -23,7 +23,6 @@ const Slider = () => {
             className="w-full h-[300px] md:h-[400px] lg:h-[500px] shrink-1"
           />
 
-          {/* Navigation buttons */}
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a
               href={`#slide${index === 0 ? banners.length : index}`}

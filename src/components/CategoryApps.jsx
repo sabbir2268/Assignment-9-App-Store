@@ -13,6 +13,7 @@ const CategoryApps = () => {
   const appsData = useLoaderData();
 
   // Filter apps by category
+
   // const productivityApps = appsData.filter(
   //   (app) => app.category.toLowerCase() === "productivity"
   // );
@@ -83,13 +84,11 @@ const CategoryApps = () => {
 
         return (
           <div key={key}>
-            {/* Category Heading with Icon */}
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
               <Icon className="w-6 h-6 text-primary" />
               {label} Apps
             </h2>
 
-            {/* Apps Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {filteredApps.map((app) => (
                 <AppCard key={app.id} app={app} />

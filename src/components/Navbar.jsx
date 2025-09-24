@@ -1,7 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../provider/AuthProvider";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const { user, logout } = useContext(AuthContext);
+
+  const handleClickIcon = () => {
+    navigate("/");
+  };
+  const handleClickUserImg = () => {
+    navigate("/myProfile");
+  };
+
+  const handleLogOut = () => {
+    logout()
+      .then((result) => {
+        alert("user logged out", result);
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+  };
+
   const links = (
     <>
       <li>
@@ -12,7 +33,6 @@ const Navbar = () => {
       </li>
     </>
   );
-  let user;
 
   return (
     <div className="navbar bg-base-100 shadow-sm px-4">
@@ -46,7 +66,12 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center gap-2 ">
-          <img src="/logo.png" alt="Logo" className="w-6 lg:w-10 shrink-0" />
+          <img
+            onClick={handleClickIcon}
+            src="/logo.png"
+            alt="Logo"
+            className="w-6 lg:w-10 shrink-0"
+          />
           {/* Hidden on mobile */}
           <Link
             to="/"
@@ -63,18 +88,20 @@ const Navbar = () => {
       </div>
 
       {/* End: Action Button */}
-      <div className="navbar-end">
+      <div className="navbar-end flex gap-2 items-center">
+        <img
+          src={`${user ? user.photoURL : "/profile.png"}`}
+          alt="user image"
+          className="w-8 h-8 rounded-full"
+          onClick={handleClickUserImg}
+        />
+
         {user ? (
-          <div className="avatar">
-            <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src={user.photoURL} alt="User Profile" />
-            </div>
-          </div>
+          <Link to="/" onClick={handleLogOut} className="btn btn-primary">
+            Logout
+          </Link>
         ) : (
-          <Link
-            to="/login"
-            className="btn bg-blue-700 hover:underline hover:outline hover:bg-blue-600 text-lg text-white"
-          >
+          <Link to="/auth/login" className="btn btn-primary">
             Login
           </Link>
         )}

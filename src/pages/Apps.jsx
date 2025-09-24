@@ -2,6 +2,7 @@ import Slider from "../components/Slider";
 import TrendingApps from "../components/TrendingApps";
 
 import CategoryApps from "../components/CategoryApps";
+import { Suspense } from "react";
 
 const Apps = () => {
   return (
@@ -10,10 +11,18 @@ const Apps = () => {
         <Slider></Slider>
       </div>
       <div>
-        <TrendingApps></TrendingApps>
+        <Suspense
+          fallback={<span className="loading loading-dots loading-xl"></span>}
+        >
+          <TrendingApps></TrendingApps>
+        </Suspense>
       </div>
       <div>
-        <CategoryApps></CategoryApps>
+        <Suspense
+          fallback={<span className="loading loading-dots loading-xl"></span>}
+        >
+          <CategoryApps></CategoryApps>
+        </Suspense>
       </div>
     </div>
   );
