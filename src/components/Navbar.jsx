@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -14,22 +15,29 @@ const Navbar = () => {
   };
 
   const handleLogOut = () => {
+    const email = user?.email;
     logout()
-      .then((result) => {
-        alert("user logged out", result);
+      .then(() => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `${email || "User"} Logged Out Successfully`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
       })
-      .catch((error) => {
-        alert(error.message);
+      .catch((err) => {
+        Swal.fire({ icon: "error", title: "Oops...", text: err.message });
       });
   };
 
   const links = (
     <>
       <li>
-        <Link to="/">Apps</Link>
+        <NavLink to="/">Apps</NavLink>
       </li>
       <li>
-        <Link to="/myProfile">My Profile</Link>
+        <NavLink to="/myProfile">My Profile</NavLink>
       </li>
     </>
   );
@@ -89,12 +97,25 @@ const Navbar = () => {
 
       {/* End: Action Button */}
       <div className="navbar-end flex gap-2 items-center">
-        <img
-          src={`${user ? user.photoURL : "/profile.png"}`}
-          alt="user image"
-          className="w-8 h-8 rounded-full"
-          onClick={handleClickUserImg}
-        />
+        <div className="relative group">
+          <img
+            src={user ? user.photoURL : "/profile.png"}
+            alt="user image"
+            className={`w-8 h-8 rounded-full cursor-pointer ${
+              !user && "hidden"
+            }`}
+            onClick={handleClickUserImg}
+          />
+          {user && (
+            <span
+              className="absolute top-full left-1/2 -translate-x-1/2 mt-2
+                 bg-gray-800 text-white text-xs px-2 py-1 rounded 
+                 opacity-0 group-hover:opacity-100 transition"
+            >
+              {user.email}
+            </span>
+          )}
+        </div>
 
         {user ? (
           <Link to="/" onClick={handleLogOut} className="btn btn-primary">

@@ -7,16 +7,16 @@ const Footer = () => {
       <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
           <Link to="/aboutUs" className="link link-hover">
-            About us
+            Terms Of Service
           </Link>
           <Link to="/aboutUs" className="link link-hover">
-            Contact
+            Privacy Policy
           </Link>
           <Link to="/aboutUs" className="link link-hover">
-            Jobs
+            Developer Resources
           </Link>
-          <Link to="/aboutUs" className="link link-hover">
-            Press Kit
+          <Link to="" className="link link-hover">
+            Apps
           </Link>
         </nav>
         <nav>
